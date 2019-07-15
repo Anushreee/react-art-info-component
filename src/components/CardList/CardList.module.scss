@@ -1,0 +1,15 @@
+@import '../../styles/mixins.scss';
+@import "~sass-rem";    
+
+.Lists {
+    padding: 0 rem(20px);
+
+    @include mq(medium) {
+        max-width: 40em;
+        margin: 0 auto;
+    }
+
+    @include mq(large) {
+        max-width: 50em;
+    }
+}

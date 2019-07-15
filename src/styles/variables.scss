@@ -1,0 +1,39 @@
+/**
+ * Global Config
+ */
+
+//Base colors
+
+$black:         #000;
+$white:         #fff;
+$main-green:    #0ea800;
+$grey:          grey;
+
+//Background Colors
+$body-bgcolor:            grey;
+$button-color:            #fff;
+$toggle-button-color:     $main-green;
+$close-button-color:      $white;
+$backdrop-bgcolor:        rgba(0,0,0,0.25);
+
+//Colors
+$h1-color:                  $white; 
+$h4-color:                  $grey;
+
+//Font Stacks
+$font-url--primary:      'Helvetica', Arial, sans-serif;
+
+//Font Styles
+$font-style--normal:      normal;
+
+//Font Weights
+$font-weight--light:      300;
+$font-weight--medium:     400;
+$font-weight--bold:       700;
+$font-weight--ultra-bold: 800;
+
+//Transitions
+$mainTransition: all 0.3s linear;   
+
+//Box Shadow
+$main-box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
